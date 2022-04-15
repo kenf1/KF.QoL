@@ -1,0 +1,11 @@
+Package: KF.QoL
+Title: K's Coding QoL Improvements
+Version: 1.0.0
+Authors@R: 
+    person("Kenneth", "Fond", , "Kenneth.Fond@ucsf.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9154-6599"))
+Description: Time is money. I am efficient (aka lazy). Why not speed things up even more to boost productivity? This package is a collection of KF's custom functions & RMD templates.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2

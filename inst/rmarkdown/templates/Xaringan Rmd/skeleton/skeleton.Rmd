@@ -1,0 +1,48 @@
+---
+title: "Title"
+subtitle:
+author: "KF"
+date: "Date"
+output:
+  xaringan::moon_reader:
+    css: [xaringan-themer.css,widths.css]
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup,include=FALSE}
+options(htmltools.dir.version=FALSE)
+knitr::opts_chunk$set(
+  fig.width=9,fig.height=3.5,fig.retina=3,
+  out.width="100%",
+  cache=FALSE,
+  echo=FALSE,
+  message=FALSE, 
+  warning=FALSE,
+  hiline=TRUE
+)
+```
+
+```{r xaringan-customizations,include=FALSE,warning=FALSE}
+gc()
+
+library(xaringanExtra)
+xaringanExtra::use_xaringan_extra(c("tile_view","scribble","fit_screen","freezeframe"))
+
+library(xaringanthemer)
+style_duo_accent(
+  primary_color="#1381B0",
+  secondary_color="#FF961C",
+  inverse_header_color="#FFFFFF"
+)
+```
+
+## 
+
+
