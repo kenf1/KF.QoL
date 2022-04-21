@@ -18,9 +18,9 @@ This package contains the following:
 Devtools R package must be installed.
 
 ```
-#install.packages("devtools")
+#install.packages("remotes")
 
-devtools::install_github("kenf1/KF.QoL")
+remotes::install_github("kenf1/KF.QoL")
 ```
 
 ## Uninstall Instructions
