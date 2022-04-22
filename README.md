@@ -1,28 +1,29 @@
-# KF.QoL
+## KF.QoL
 
-R package containing KF's commonly-used custom functions and templates.
+#### R package containing KF's frequently-used custom functions and templates.
+
+
 
 This package contains the following:
 
-1. **Rmd Templates**:
- - General, HTML output
- - Quick Reports, HTML output
- - Shiny, App output
- - Test Code, No output
- - Xaringan, HTML output
+1. Rmd Templates
+2. Custom functions
 
-2. **Custom functions**
 
-## Installation Instructions
 
-Devtools R package must be installed.
+### To install:
 
-```
-#install.packages("remotes")
+Devtools R package is required.
 
-remotes::install_github("kenf1/KF.QoL")
+```R
+#install.packages("devtools")
+
+devtools::install_github("kenf1/KF.QoL")
 ```
 
-## Uninstall Instructions
+### To remove:
 
-`remove.packages("KF.QoL")`
+```R
+remove.packages("KF.QoL")
+```
+
