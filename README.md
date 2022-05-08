@@ -26,4 +26,3 @@ devtools::install_github("kenf1/KF.QoL")
 ```R
 remove.packages("KF.QoL")
 ```
-

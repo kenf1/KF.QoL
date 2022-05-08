@@ -2,6 +2,7 @@
 
 export(DTfilter)
 export(bulkImport)
+export(extractText)
 export(fix_Excel_date)
 export(match_n_fill)
 export(origLvl)

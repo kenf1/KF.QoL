@@ -37,7 +37,7 @@ xaringanExtra::use_xaringan_extra(c("tile_view","scribble","fit_screen","freezef
 
 library(xaringanthemer)
 style_duo_accent(
-  primary_color="#1381B0",
+  primary_color="#6DA9DF",
   secondary_color="#FF961C",
   inverse_header_color="#FFFFFF"
 )
