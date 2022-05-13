@@ -4,15 +4,17 @@
 \alias{extractText}
 \title{Extract Text from Image}
 \usage{
-extractText(imagePath, ocrLang = "eng")
+extractText(imagePath, ocrLang = "eng", loadLibrary = FALSE)
 }
 \arguments{
 \item{imagePath}{Path of image to extract text from.}
 
-\item{ocrLang}{}
+\item{ocrLang}{Language of text in image.}
+
+\item{loadLibrary}{Will load tesseract library if set to \code{TRUE}. Default is \code{FALSE}.}
 }
 \value{
-
+Extracted text in console.
 }
 \description{
 Uses \href{https://github.com/tesseract-ocr/tesseract}{Google's OCR} (optical character recognition) engine to extract text from images. This function is just a wrapper of multiple steps found in \href{https://docs.ropensci.org/tesseract/articles/intro.html}{Tesseract documentation}.

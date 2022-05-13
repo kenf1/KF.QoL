@@ -2,14 +2,12 @@
 
 #### R package containing KF's frequently-used custom functions and templates.
 
-
-
 This package contains the following:
 
 1. Rmd Templates
-2. Custom functions
+1. Custom functions
 
-
+For more infomation, visit the [KF.QoL Documentation](https://kenf1.github.io/Rendered/KF.QoL%20Documentation/) website.
 
 ### To install:
 
