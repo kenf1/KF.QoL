@@ -1,6 +1,6 @@
 Package: KF.QoL
 Title: K's Coding QoL Improvements
-Version: 1.1.0
+Version: 1.2.0
 Authors@R: 
     person("Kenneth", "Fond", , "kenfv1@outlook.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-9154-6599"))
