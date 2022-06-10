@@ -44,5 +44,3 @@ style_duo_accent(
 ```
 
 ## 
-
-

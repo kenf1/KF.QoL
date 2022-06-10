@@ -33,16 +33,12 @@ knitr::opts_chunk$set(
 ### Packages + Functions
 
 ```{r}
-#Core packages/functions
 gc()
-library(KF.QoL)
+library(KF.QoL) #custom functions
 library(tidyverse)
 library(data.table)
 library(readxl)
-
-#Additional packages
 library(bslib)
-
 ```
 
 ### Data
@@ -50,5 +46,3 @@ library(bslib)
 ```{r}
 
 ```
-
-

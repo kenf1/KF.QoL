@@ -33,22 +33,16 @@ knitr::opts_chunk$set(
 ### Packages + Functions
 
 ```{r}
-#Core packages/functions
 gc()
-library(KF.QoL)
+library(KF.QoL) #custom functions
 library(tidyverse)
 library(data.table)
 library(readxl)
-
-#Additional packages
 library(bslib)
-
 ```
 
 ```{r}
 #python, path can vary
 library(reticulate)
-use_python("/Library/Frameworks/Python.framework/Versions/3.10/bin/python3")
+reticulate::use_python("/Library/Frameworks/Python.framework/Versions/3.10/bin/python3")
 ```
-
-
