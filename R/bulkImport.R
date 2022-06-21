@@ -20,8 +20,8 @@
 
 bulkImport <- function(FileExtension,fread=FALSE,FolderPath="./Input",xlsheet=1){
   files <- list.files(path=FolderPath,pattern=FileExtension,full.names=TRUE)
-  names(files) <- files
-  names(files) <- stringr::str_remove(names(files),paste(FolderPath,"/",sep="")) %>%
+  temp_names <- stringr::str_split(files,"/",simplify=TRUE)
+  names(files) <- temp_names[,ncol(temp_names)] %>%
     stringr::str_remove(FileExtension)
   if(purrr::is_empty(files)==TRUE){ #if no matching files of FileExtension are found
     stop("No files of this format type are found in the specified FolderPath")

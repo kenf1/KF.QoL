@@ -8,4 +8,4 @@ Description: Time is money. I am efficient (aka lazy). Why not speed things up e
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.0
